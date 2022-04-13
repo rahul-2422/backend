@@ -1,0 +1,58 @@
+.drop{
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    position: relative;
+}
+.cart{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.drop-menu{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 3px;
+}
+/* 
+nav{
+    border: 2px solid black;
+} */
+
+.box-drop{
+    background-color: white;
+    color: black;
+    width: 200px;  
+    position: fixed;
+    top: 8%;
+    right: 3%;
+    border-radius: 10px;
+    padding: 1em;
+    z-index: 3;
+}
+
+.test1 .box-drop{
+    right: 1%;
+}
+
+.dis{
+    display: none;
+}
+
+
+.box-drop a, .box-drop h6{
+    color: black;
+    display: block;
+    padding: 0.5em;
+}
+
+.box-drop a:hover{
+    background-color: #e6e6e6 ;  
+    border-radius: 5px;
+}
